@@ -2,7 +2,7 @@ graphe      : Soit G = (X, E) un graphe ayant deux ensembles X et E, X etant l'e
 orienté     : Un graphe orienté est un graphe dont dont les arcs (ensemble E) sont représentés par un couple (x, y) différent de (y, x).
 non orienté : Un graphe non orienté est un graphe dont les arêtes (ensemble E) sont représentées par une paire {x, y} identique à {y, x}.
 multi-graphe: Un multigraphe est un graphe orienté ou non qui peut avoir des boucles (arc / arêtes pointant vers lui-même) et plusieurs arcs / arêtes ayant les mêmes extrémités.
-simple      : Un graphe simple est un graphe n'acceptant ni boucle ni multiple arc / arête ayant les mêmes extrémités.
+simple      : Un graphe est dit simple si il n'acceptant ni boucle ni multiple arc / arête ayant les mêmes extrémités.
 complet     : Un graphe complet est un graphe simple dont tous les sommets sont reliés noté K_n (Kasimir Kuratowski).
 sommmet     : Un sommet est un point dans un graphe. Le nombre de sommets est noté n, n = |X|.
 arc         : Un arc est un couple (x, y) dans un graphe orienté reliant un sommet à un autre (à sens unique). Le nombre d'arcs est noté m, m = |E|.
