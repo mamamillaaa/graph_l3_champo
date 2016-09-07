@@ -1,0 +1,18 @@
+graphe      : Soit G = (X, E) un graphe ayant deux ensembles X et E, X etant l'ensemble des sommets et E l'ensemble des arêtes / arcs.
+orienté     : Un graphe orienté est un graphe dont dont les arcs (ensemble E) sont représentés par un couple (x, y) différent de (y, x).
+non orienté : Un graphe non orienté est un graphe dont les arêtes (ensemble E) sont représentées par une paire {x, y} identique à {y, x}.
+multi-graphe: Un multigraphe est un graphe orienté ou non qui peut avoir des boucles (arc / arêtes pointant vers lui-même) et plusieurs arcs / arêtes ayant les mêmes extrémités.
+simple      : Un graphe simple est un graphe n'acceptant ni boucle ni multiple arc / arête ayant les mêmes extrémités.
+complet     : Un graphe complet est un graphe simple dont tous les sommets sont reliés noté K_n (Kasimir Kuratowski).
+sommmet     : Un sommet est un point dans un graphe. Le nombre de sommets est noté n, n = |X|.
+arc         : Un arc est un couple (x, y) dans un graphe orienté reliant un sommet à un autre (à sens unique). Le nombre d'arcs est noté m, m = |E|.
+arête       : Une arête est une paire {x, y} dans un graphe non orienté reliant deux sommets. Le nombre d'arêtes est noté m, m = |E|.
+degré       : Le degré d'un sommet est le nombre d'arêtes / arcs qui le relie à d'autres sommets (compter tous les arcs / arêtes dans un multigraphe). 
+ordre       : L'odre d'un graphe est le nombre de sommets qu'il possède, il est noté n, n = |X|.
+adjacent / voisin   : Deux sommets sont voisins / adjacents si il existe un arc / arête qui les relie directement.
+extrémité   : Si (x, y) / {x, y} existe, alors x et y sont leur extrémités.
+voisinage   : Dans le cas d'un graphe non orienté le voisinage d'un sommet est la liste de tous les sommets qui le relie.
+voisinage entrant   : Dans le cas d'un graphe orienté le voisinage entrant est le nombre de sommets qui pointe vers le sommet en question.
+voisinage sortant   : Dans le cas d'un graphe orienté le voisinage sortant est le nombre de sommets pointé depuis le sommet en question.
+k-parti     : Un graphe est dit k-parti si il existe une partition de X en k ensembles non vides tel que toute crête de G ait ses extrémités dans des ensembles diffrérents.
+
